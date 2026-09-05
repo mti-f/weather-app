@@ -1,16 +1,27 @@
-# React + Vite
+# Modern Weather Application 🌤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A feature-rich, portfolio-ready React weather application built with modern web technologies. It provides real-time weather data, 5-day forecasts, automatic GPS location detection, and local storage persistence wrapped in a sleek glassmorphism UI.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Real-Time Weather Data:** Fetches current temperature, humidity, and wind speed.
+- **5-Day Forecast:** Displays daily maximum and minimum temperatures ahead.
+- **Geolocation API Support:** Automatically detects and displays weather for the user's current GPS location.
+- **Session Persistence:** Remembers the last searched city using browser `localStorage`.
+- **Quick-Select Cities:** Pre-configured buttons for popular global cities (Tehran, London, Paris, Tokyo).
+- **Modern Glassmorphism UI:** Built with responsive design principles, smooth transitions, and a dark-themed aesthetic.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework:** React (Vite)
+- **Styling:** CSS3 (Glassmorphism, Flexbox, CSS Grid)
+- **APIs:** Open-Meteo REST API (Geocoding, Current Weather, Daily Forecast)
+- **Storage:** Browser LocalStorage API
 
-## Expanding the ESLint configuration
+## 📦 Getting Started Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project on your local machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/mti-f/weather-app.git](https://github.com/mti-f/weather-app.git)
